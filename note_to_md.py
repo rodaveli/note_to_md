@@ -29,7 +29,7 @@ message = client.messages.create(
                 },
                 {
                     "type": "text",
-                    "text": "Convert the handwritten note in this image to Markdown format text. Preserve  characters such as '#' and '[', The first instance of text found in the image should return as '[[Test]]'. CRITICAL INSTRUCTION: DO NOT RETURN ANY TEXT OUR OUTPUT EXCEPT WHAT IS DETECTED IN THE IMAGE.",
+                    "text": "Convert the handwritten note in this image to Markdown format text. Preserve  characters such as '#' and '[', The first instance of text found in the image should return as '[[<example test>]]'. CRITICAL INSTRUCTION: DO NOT RETURN ANY TEXT OUR OUTPUT EXCEPT WHAT IS DETECTED IN THE IMAGE.",
                 },
             ],
         }
